@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Projects | Big Data Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="skills.html">Skills</a></li>
+          <li><a href="projects.html" class="active">Projects</a></li>
+          <li><a href="certificates.html">Certificates</a></li>
+          <li><a href="experience.html">Experience</a></li>
+          <li><a href="hackathons.html">Hackathons</a></li>
+          <li><a href="resume.pdf" download class="resume-link">Resume</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="projects-container">
+      <h1 class="projects-title">My Projects</h1>
+
+      <section class="project-card">
+        <div class="project-image-container">
+          <img
+            src="project1.jpg"
+            alt="Real-time Data Pipeline"
+            class="project-image"
+          />
+        </div>
+        <div class="project-content">
+          <h2 class="project-name">Real-time Data Pipeline with Kafka</h2>
+          <p class="project-description">
+            Designed and implemented a high-throughput data pipeline processing
+            50,000+ events per second using Apache Kafka and Spark Streaming.
+            Integrated with AWS S3 for storage and visualized metrics with
+            Tableau.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-item"><i class="fab fa-python"></i> Python</span>
+            <span class="tech-item"><i class="fas fa-database"></i> Kafka</span>
+            <span class="tech-item"><i class="fas fa-bolt"></i> Spark</span>
+            <span class="tech-item"><i class="fab fa-aws"></i> AWS</span>
+          </div>
+          <p class="project-date">Completed: Jan 2025</p>
+        </div>
+      </section>
+
+      <div class="project-divider"></div>
+
+      <section class="project-card">
+        <div class="project-image-container">
+          <img
+            src="project2.jpg"
+            alt="Hadoop Log Analysis"
+            class="project-image"
+          />
+        </div>
+        <div class="project-content">
+          <h2 class="project-name">Hadoop-Based Log Analysis System</h2>
+          <p class="project-description">
+            Developed a distributed log processing system using Hadoop MapReduce
+            that reduced analysis time by 75% compared to traditional methods.
+            Implemented Hive for querying and Pig for data transformations.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-item"><i class="fab fa-java"></i> Java</span>
+            <span class="tech-item"><i class="fas fa-server"></i> Hadoop</span>
+            <span class="tech-item"><i class="fas fa-chart-bar"></i> Hive</span>
+          </div>
+          <p class="project-date">Completed: Nov 2024</p>
+        </div>
+      </section>
+
+      <div class="project-divider"></div>
+
+      <section class="project-card">
+        <div class="project-image-container">
+          <img
+            src="project3.jpg"
+            alt="Snowflake Data Warehouse"
+            class="project-image"
+          />
+        </div>
+        <div class="project-content">
+          <h2 class="project-name">Cloud Data Warehouse Migration</h2>
+          <p class="project-description">
+            Migrated a legacy SQL Server database to Snowflake, optimizing query
+            performance by 60% and reducing costs by 45%. Implemented dbt for
+            transformations and Airflow for orchestration.
+          </p>
+          <div class="project-tech-stack">
+            <span class="tech-item"
+              ><i class="fas fa-snowflake"></i> Snowflake</span
+            >
+            <span class="tech-item"><i class="fas fa-database"></i> SQL</span>
+            <span class="tech-item"><i class="fas fa-wrench"></i> dbt</span>
+          </div>
+          <p class="project-date">Completed: March 2024</p>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
